@@ -1,0 +1,25 @@
+name: ${artifactId}
+main: me.badbones69.categorywarps.Main
+version: ${version}
+author: BadBones69
+description: >
+             A new Cleaner more Fancy Warp Plugin for your Minecraft Server!
+commands:
+  Warp:
+    description: Warp to a Warp!
+  WarpList:
+    description: Lists all of the Categories with their warps!
+  Warps:
+    description: Lists all of the Categories with their warps!
+  SetWarp:
+    description: Sets a Warp in a Category!
+  DelWarp:
+    description: Deletes a Warp!
+  WarpReload:
+    description: Reloads Category Warps Config!
+  WarpHelp:
+    description: A list of all the Warp Commands!
+  WarpImport:
+    description: Imports all essentials warps.
+  MoveWarp:
+    description: Move a warp to a new category.
