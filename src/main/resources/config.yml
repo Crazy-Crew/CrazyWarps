@@ -1,35 +1,32 @@
 # Plugin made by BadBones69
 # Spigot Page: https://www.spigotmc.org/resources/category-warps.12696/
-# Essentials Color Code is Enabled in Warp Message.
-# Use %Delay% for the Delay Time in the Warp Message.
-# Use %Warp% for the Warp Name in the Warp Message and WarpListFormat.
-# Use %Category% for the Category Format and WarpListFormat.
-# Use %Deny% for where you deny in the Warp List
-Settings:
-    PerWarpPermissions: true
-    PerCategoryPermissions: true
-    TeleportDelay: 3 # In seconds.
-    WarpMessage: '&7You are now warping to &6&l%Warp% &7in &c&l%Delay% &7Seconds.'
-    WarpCancelMessage: '&cTeleport cancelled do to you moving!'
-    WarpPrefix: '&0[&cWarp&0]&7: '
-    ListWarp: '&6List of all warps and categories.'
-    CategoryFormat: '&0[&2%Category%&0]&7: ' # This becomes %Category%
-    NoPermWarpFormat: '&c%Warp%&7, ' # This becomes %Warp% if the player does not have permission to that warp.
-    HasPermWarpFormat: '&6%Warp%&7, ' # This becomes %Warp% if the player has permission to that warp.
-    WarpListFormat: '%Category%&8[%Warp%&8]'
-    DeniedCategoryFormat: '&cYou do not have permission to see these Warps!' # This becomes %Deny%
-    WarpListCategoryDeny: '%Category%&8[%Deny%&8]'
-    WarpExplotion: true
-    #Please use for the Teleport Particle.
-    #Smoke
-    #Sparkles
-    #Spell
-    #Enchant
-    #Village
-    #Magic
-    #Specks
-    #Music
-    #RainbowCloud
-    #Random
-    #None
-    TeleportingParticle: Smoke
+
+settings:
+    per-permissions:
+        warp: true
+        category: true
+    timers:
+        delay: 3 # How long should it take the user to wait to warp.
+        cooldown: 30 # How long should it take until the user can warp again.
+
+messages:
+    prefix: '&0[&cWarp&0]&7'
+    warp-success: '&7You are now warping to &6&l%Warp% &7in &c&l%Delay% &7Seconds.'
+    warp-canceled: '&cTeleport cancelled due to you moving!'
+
+cosmetics:
+    per-warp-effects: true # Should each warp use independent particle effects from each other?
+    per-warp-sounds: true  # Should each warp use independent sound effects from each other?
+    global-particles: # If enabled, global takes priority over independent particle effects. Set to false if you want independent particle effects.
+        enabled: false
+        amount: 0
+        effect: SMOKE
+        x-offset: 1.0
+        y-offset: 1.0
+        z-offset: 1.0
+        speed: 0.5
+    global-sounds: # If enabled, global takes priority over independent sound effects. Set to false if you want independent sound effects.
+        enabled: false
+        sound: NOTEBLOCK
+        volume: 1.0
+        pitch: 1.0
