@@ -12,5 +12,3 @@ commands:
   crazywarpsadmin:
     aliases: [cwa, warpadmin, warpsadmin]
     description: Base CrazyWarps command for administrators.
-
-    # Test Commit
