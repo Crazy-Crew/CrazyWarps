@@ -1,14 +1,22 @@
-name: ${artifactId}
-main: com.badbones69.crazywarps.CrazyWarps
-version: ${version}
+name: "CrazyWarps"
+
+main: "${group}.CrazyWarps"
+
 authors: [BadBones69, apt.int]
-softdepend: [Essentials, EssentialsX]
-description: A clean, fancy and feature-rich warp plugin for your Minecraft Server!
+
+version: ${version}
+api-version: "1.19"
+description: ${description}
+
+softdepend:
+  - Essentials
+  - EssentialsX
 
 commands:
   crazywarps:
     aliases: [cw, warp, warps]
     description: Base CrazyWarps command for users.
+
   crazywarpsadmin:
     aliases: [cwa, warpadmin, warpsadmin]
     description: Base CrazyWarps command for administrators.
