@@ -78,6 +78,7 @@ tasks {
         listOf(
             "dev.triumphteam",
             "com.jeff_media",
+            "xyz.xenondevs",
             "org.bstats"
         ).forEach {
             relocate(it, "${rootProject.group}.plugin.lib.$it")
