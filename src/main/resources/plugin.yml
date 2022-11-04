@@ -2,7 +2,7 @@ name: "CrazyWarps"
 
 main: "${group}.CrazyWarps"
 
-authors: [BadBones69, apt.int]
+authors: [BadBones69, soaura]
 
 version: ${version}
 api-version: "1.19"
