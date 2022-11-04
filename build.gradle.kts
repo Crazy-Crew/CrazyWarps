@@ -60,7 +60,7 @@ dependencies {
     implementation("org.bstats:bstats-bukkit:3.0.0")
 
     implementation("com.jeff_media:SpigotUpdateChecker:3.0.0")
-    implementation("xyx.xenondevs:particle:1.8.1")
+    implementation("xyz.xenondevs:particle:1.8.1")
 }
 
 java {
