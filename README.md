@@ -1,6 +1,6 @@
 <br />
 
-[![crazywarps](https://raw.githubusercontent.com/RyderBelserion/Assets/main/crazycrew/banners/CrazyWarps.png)](https://www.spigotmc.org/resources/category-warps.12696/)
+[![crazywarps](https://cdn.discordapp.com/attachments/1033186026715365406/1033191216596131860/logo-color.png)](https://www.spigotmc.org/resources/category-warps.12696/)
 
 <div align="center">
 
