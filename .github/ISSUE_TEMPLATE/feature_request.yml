@@ -10,7 +10,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Note: Search to see if an issue already exists for the bug you are reporting.
+        Note: Search to see if a feature requested has already been made.
   - type: textarea
     id: steps
     attributes:
