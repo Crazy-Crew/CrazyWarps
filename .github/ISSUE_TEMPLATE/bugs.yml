@@ -49,6 +49,7 @@ body:
         - Spigot
         - Paper
         - Purpur
+        - Folia
     validations:
       required: true
   - type: textarea
