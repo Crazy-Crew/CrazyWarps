@@ -1,0 +1,22 @@
+name: "Feature Request"
+description: "Submit a feature request!"
+title: "[Feature Request]: "
+labels: ["enhancement"]
+
+assignees:
+  - ryderbelserion
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Note: Search to see if an issue already exists for the bug you are reporting.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Feature Request
+      description: Describe your feature in detail.
+      placeholder: |
+        1. Please describe your feature in detail.
+    validations:
+      required: true
