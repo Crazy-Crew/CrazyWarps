@@ -22,7 +22,7 @@
     <a href="https://github.com/Crazy-Crew/CrazyWarps/wiki"><strong>Explore the Documentation »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Crazy-Crew/CrazyWarps/issues">Report Bug</a>
+    <a href="https://github.com/Crazy-Crew/CrazyWarps/issues/new?assignees=ryderbelserion&labels=bug&projects=&template=bugs.yml&title=%5BBug+Report%5D%3A+">Report Bug</a>
     ·
     <a href="https://github.com/Crazy-Crew/CrazyWarps/issues/new?assignees=&labels=feature&template=feature_request.md&title=%5BFeature%5D+">Request Feature</a>
     ·
@@ -62,7 +62,7 @@ Check our public [trello board](https://trello.com/b/yJNxK6S5/) for our current 
 Distributed under the MIT License. See [`LICENSE`](/LICENSE) for more information.
 
 [discord-shield]: https://img.shields.io/discord/182615261403283459.svg?style=for-the-badge
-[discord-url]: https://discord.gg/crazycrew
+[discord-url]: https://discord.gg/badbones-s-live-chat-182615261403283459
 
 [contributors-shield]: https://img.shields.io/github/contributors/Crazy-Crew/CrazyWarps.svg?style=for-the-badge
 [contributors-url]: https://github.com/Crazy-Crew/CrazyWarps/graphs/contributors
